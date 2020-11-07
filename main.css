@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    width: 75%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: #222;
+    text-align: center;
+}
+
+.container .header{
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 8px;
+}
+
+.container .game{
+    position: relative;
+    padding: 10px;
+}
+
+.container .game h2{
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+.container .image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.container .image img{
+    width: 30%;
+    height: 300px;
+    cursor: pointer;
+}
+
+.container #before{
+    display: block;
+}
+
+
+.container #after{
+    display: none;
+}
+
+.container #after button{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    word-spacing: 7px;
+    border: 2px solid red;
+    border-radius: 7px;
+    background-color: red;
+    color: #fff;
+    transform: all 0.7s ease;
+    cursor: pointer;
+}
+
+.container #after button:hover{
+    background-color: #fff;
+    color: red;
+}
+
+.container .image img:hover{
+    box-shadow: 0 10px 50px blue;
+}
